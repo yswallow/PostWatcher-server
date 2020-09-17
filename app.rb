@@ -1,8 +1,6 @@
 require 'sinatra'   # gem 'sinatra'
 require 'line/bot'  # gem 'line-bot-api'
 
-Dotenv.load()
-
 def generate_message(event)
   lineid, space_name = case event["source"]["type"]
     when "user"
