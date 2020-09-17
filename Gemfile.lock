@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    line-bot-api (1.13.0)
+    mustermann (1.1.0)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.0.8)
+    rack-protection (2.0.7)
+      rack
+    ruby2_keywords (0.0.1)
+    sinatra (2.0.7)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.7)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  line-bot-api
+  sinatra
+
+BUNDLED WITH
+   2.1.2
